@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="parentframe-container">
+        <div class="parentframe-parentframe">
+          <div class="parentframe-frame1">
+            <div class="parentframe-mobile">
+              <img
+                alt="Rectangle833694"
+                src="public/external/rectangle833694-k33v.svg"
+                class="parentframe-rectangle83"
+              />
+              <img
+                alt="Rectangle823694"
+                src="public/external/rectangle823694-mx6-900w.png"
+                class="parentframe-rectangle82"
+              />
+              <span class="parentframe-text"><span>Hirwa Ayan</span></span>
+              <span class="parentframe-text002">
+                <span>Front-end Developer / UI Designer</span>
+              </span>
+              <img
+                alt="Vector3695"
+                src="public/external/vector3695-ra2.svg"
+                class="parentframe-vector"
+              />
+              <img
+                alt="Vector3695"
+                src="public/external/vector3695-199.svg"
+                class="parentframe-vector01"
+              />
+              <img
+                alt="Vector3695"
+                src="public/external/vector3695-exo8.svg"
+                class="parentframe-vector02"
+              />
+              <img
+                alt="Rectangle763695"
+                src="public/external/rectangle763695-p1sk.svg"
+                class="parentframe-rectangle76"
+              />
+              <div class="parentframe-group8">
+                <img
+                  alt="Vector3695"
+                  src="public/external/vector3695-k2.svg"
+                  class="parentframe-vector03"
+                />
+                <img
+                  alt="Vector3695"
+                  src="public/external/vector3695-dswl.svg"
+                  class="parentframe-vector04"
+                />
+                <img
+                  alt="Vector3695"
+                  src="public/external/vector3695-juz.svg"
+                  class="parentframe-vector05"
+                />
+              </div>
+              <img
+                alt="Ellipse33695"
+                src="public/external/ellipse33695-3id6c-300w.png"
+                class="parentframe-ellipse3"
+              />
+              <div class="parentframe-frame17">
+                <div class="parentframe-frame18"></div>
+              </div>
+            </div>
+          </div>
+          <div class="parentframe-frame2">
+            <div class="parentframe-dropdownmenu">
+              <span class="parentframe-text004">
+                <span>  my name is Thomas</span>
+              </span>
+              <span class="parentframe-text006">
+                <span>I’M A DEVELOPER</span>
+              </span>
+              <img
+                alt="antdesigngithubfilled3698"
+                src="public/external/antdesigngithubfilled3698-cf2o.svg"
+                class="parentframe-antdesigngithubfilled"
+              />
+              <img
+                alt="entyposociallinkedinwithcircle3691"
+                src="public/external/entyposociallinkedinwithcircle3691-qqh.svg"
+                class="parentframe-entyposociallinkedinwithcircle"
+              />
+              <img
+                alt="cibmailru3691"
+                src="public/external/cibmailru3691-9e7x.svg"
+                class="parentframe-cibmailru"
+              />
+              <img
+                alt="separatorWhite33691"
+                src="public/external/separatorwhite33691-w1co-200h.png"
+                class="parentframe-separator-white3"
+              />
+              <img
+                alt="pexelsphoto23691"
+                src="public/external/pexelsphoto23691-76g-400w.png"
+                class="parentframe-pexelsphoto2"
+              />
+              <img
+                alt="Rectangle773691"
+                src="public/external/rectangle773691-jpli.svg"
+                class="parentframe-rectangle77"
+              />
+              <img
+                alt="Rectangle783691"
+                src="public/external/rectangle783691-8l5m.svg"
+                class="parentframe-rectangle78"
+              />
+              <img
+                alt="Rectangle793691"
+                src="public/external/rectangle793691-fb8x.svg"
+                class="parentframe-rectangle79"
+              />
+              <img
+                alt="Rectangle803691"
+                src="public/external/rectangle803691-3myd.svg"
+                class="parentframe-rectangle80"
+              />
+              <img
+                alt="Rectangle813692"
+                src="public/external/rectangle813692-lh7.svg"
+                class="parentframe-rectangle81"
+              />
+              <span class="parentframe-text008"><span>Portfolio</span></span>
+              <span class="parentframe-text010"><span>CONTACT ME</span></span>
+              <span class="parentframe-text012"><span>About me</span></span>
+              <img
+                alt="Line403692"
+                src="public/external/line403692-x24.svg"
+                class="parentframe-line40"
+              />
+              <span class="parentframe-text014">
+                <span>  my name is Ayan</span>
+              </span>
+              <span class="parentframe-text016">
+                <span>I’M A DEVELOPER</span>
+              </span>
+              <img
+                alt="antdesigngithubfilled3693"
+                src="public/external/antdesigngithubfilled3693-au7d.svg"
+                class="parentframe-antdesigngithubfilled1"
+              />
+              <img
+                alt="entyposociallinkedinwithcircle3693"
+                src="public/external/entyposociallinkedinwithcircle3693-1221p.svg"
+                class="parentframe-entyposociallinkedinwithcircle1"
+              />
+              <img
+                alt="cibmailru3693"
+                src="public/external/cibmailru3693-hvp.svg"
+                class="parentframe-cibmailru1"
+              />
+              <img
+                alt="separatorWhite33693"
+                src="public/external/separatorwhite33693-odui-200h.png"
+                class="parentframe-separator-white31"
+              />
+              <img
+                alt="Rectangle853691"
+                src="public/external/rectangle853691-t1v8-200h.png"
+                class="parentframe-rectangle85"
+              />
+              <div class="parentframe-group">
+                <img
+                  alt="Vector3692"
+                  src="public/external/vector3692-fwrh.svg"
+                  class="parentframe-vector06"
+                />
+                <img
+                  alt="Vector3692"
+                  src="public/external/vector3692-a49o.svg"
+                  class="parentframe-vector07"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="parentframe-frame3">
+            <div class="parentframe-about">
+              <div class="parentframe-section-header">
+                <span class="parentframe-text018"><span>ABOUT ME</span></span>
+              </div>
+              <div>
+                <span class="parentframe-text020"><span>SKILLS</span></span>
+              </div>
+              <span class="parentframe-text022">
+                <span>
+                  <span>
+                    Second year student in User Experience Design at Laurier
+                    University in Brantford. Grew up in Montreal, I enjoy
+                    spending time with my family and collaborating on fun and
+                    unique projects.
+                  </span>
+                  <br />
+                  <span>
+                    You can browse this website to view some of my designs and
+                    the projects I worked on.
+                  </span>
+                </span>
+              </span>
+              <div class="parentframe-button">
+                <span class="parentframe-text027"><span>EXPLORE</span></span>
+                <img
+                  alt="Line171399"
+                  src="public/external/line171399-cip.svg"
+                  class="parentframe-line17"
+                />
+                <img
+                  alt="Line181400"
+                  src="public/external/line181400-a79cj.svg"
+                  class="parentframe-line18"
+                />
+              </div>
+              <img
+                alt="separatorBlack71108"
+                src="public/external/separatorblack71108-0yl-200h.png"
+                class="parentframe-separator-black7"
+              />
+              <img
+                alt="separatorBlack81110"
+                src="public/external/separatorblack81110-kh6-200h.png"
+                class="parentframe-separator-black8"
+              />
+              <div class="parentframe-services">
+                <div class="parentframe-service">
+                  <span class="parentframe-text029">
+                    <span>
+                      <span>
+                        In case of any problems or the need for changes, I can
+                        introduce new functionalities and solutions.
+                      </span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span></span>
+                    </span>
+                  </span>
+                  <span class="parentframe-text036">
+                    <span>MAINTENANCE</span>
+                  </span>
+                  <img
+                    alt="img53328811107"
+                    src="public/external/img53328811107-8d9o-200w.png"
+                    class="parentframe-img5332881"
+                  />
+                </div>
+                <div class="parentframe-service1">
+                  <span class="parentframe-text038">
+                    <span>
+                      <span>
+                        Based on a project created by me or another one, sent by
+                        you, I can program the website to be fully functional
+                        and responsive.
+                      </span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span></span>
+                    </span>
+                  </span>
+                  <span class="parentframe-text045">
+                    <span>DEVELOPMENT</span>
+                  </span>
+                  <img
+                    alt="maintenancev311110"
+                    src="public/external/maintenancev311110-ihhq-200h.png"
+                    class="parentframe-maintenancev31"
+                  />
+                </div>
+                <div class="parentframe-service2">
+                  <span class="parentframe-text047">
+                    <span>
+                      <span>
+                        I can design the website based on your needs and
+                        suggestions. I can also create it from scratch by
+                        consulting with you during work.
+                      </span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span></span>
+                    </span>
+                  </span>
+                  <span class="parentframe-text054"><span>DESIGN</span></span>
+                  <img
+                    alt="IMAGE13637820011110"
+                    src="public/external/image13637820011110-1gg-200h.png"
+                    class="parentframe-image1363782001"
+                  />
+                </div>
+              </div>
+              <div class="parentframe-skills">
+                <span class="parentframe-text056"><span>USING NOW:</span></span>
+                <div class="parentframe-group15">
+                  <img
+                    alt="Vector531"
+                    src="public/external/vector531-x9q.svg"
+                    class="parentframe-vector08"
+                  />
+                  <img
+                    alt="Vector532"
+                    src="public/external/vector532-e1b4.svg"
+                    class="parentframe-vector09"
+                  />
+                </div>
+                <div class="parentframe-group16">
+                  <img
+                    alt="Vector534"
+                    src="public/external/vector534-dxtl.svg"
+                    class="parentframe-vector10"
+                  />
+                  <img
+                    alt="Vector535"
+                    src="public/external/vector535-19lk.svg"
+                    class="parentframe-vector11"
+                  />
+                </div>
+                <img
+                  alt="Vector536"
+                  src="public/external/vector536-lgw4.svg"
+                  class="parentframe-vector12"
+                />
+                <span class="parentframe-text058"><span>HTML5</span></span>
+                <span class="parentframe-text060"><span>CSS3</span></span>
+                <span class="parentframe-text062"><span>SASS</span></span>
+              </div>
+              <span class="parentframe-text064"><span>BACK</span></span>
+              <img
+                alt="Vector3691"
+                src="public/external/vector3691-h59.svg"
+                class="parentframe-vector13"
+              />
+              <img
+                alt="Rectangle843691"
+                src="public/external/rectangle843691-8aow-200h.png"
+                class="parentframe-rectangle84"
+              />
+            </div>
+          </div>
+          <div class="parentframe-frame4">
+            <div class="parentframe-portfolio">
+              <div class="parentframe-section-header1">
+                <img
+                  alt="image121476"
+                  src="public/external/image121476-ynu-400w.png"
+                  class="parentframe-image12"
+                />
+                <span class="parentframe-text066"><span>PORTFOLIO</span></span>
+              </div>
+              <div class="parentframe-filterbar">
+                <span class="parentframe-text068"><span>DESIGNED</span></span>
+                <img
+                  alt="Line35575"
+                  src="public/external/line35575-fjsx.svg"
+                  class="parentframe-line35"
+                />
+                <span class="parentframe-text070"><span>CODED</span></span>
+                <span class="parentframe-text072"><span>ALL</span></span>
+                <img
+                  alt="Line25571"
+                  src="public/external/line25571-9rx9.svg"
+                  class="parentframe-line25"
+                />
+                <img
+                  alt="Line26572"
+                  src="public/external/line26572-oztd.svg"
+                  class="parentframe-line26"
+                />
+              </div>
+              <div class="parentframe-projects">
+                <img
+                  alt="Project576"
+                  src="public/external/project576-ottd-300h.png"
+                  class="parentframe-project"
+                />
+                <img
+                  alt="Project577"
+                  src="public/external/project577-r7l-300h.png"
+                  class="parentframe-project1"
+                />
+                <div class="parentframe-project2">
+                  <img
+                    alt="Rectangle171432"
+                    src="public/external/rectangle171432-gc92-300h.png"
+                    class="parentframe-rectangle17"
+                  />
+                  <span class="parentframe-text074"><span>eatsome.</span></span>
+                  <span class="parentframe-text076"><span>DEMO</span></span>
+                  <img
+                    alt="Line36580"
+                    src="public/external/line36580-8r9h.svg"
+                    class="parentframe-line36"
+                  />
+                  <img
+                    alt="Line37581"
+                    src="public/external/line37581-swto.svg"
+                    class="parentframe-line37"
+                  />
+                  <span class="parentframe-text078"><span>MORE</span></span>
+                  <img
+                    alt="Line38583"
+                    src="public/external/line38583-56d.svg"
+                    class="parentframe-line38"
+                  />
+                  <img
+                    alt="Line39584"
+                    src="public/external/line39584-td99.svg"
+                    class="parentframe-line39"
+                  />
+                  <span class="parentframe-text080">
+                    <span>coded, designed</span>
+                  </span>
+                  <span class="parentframe-text082">
+                    <span>
+                      Restaurant browsing in React.js (Using Yelp API)
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <span class="parentframe-text084">
+                <span>And many more to come!</span>
+              </span>
+              <span class="parentframe-text086"><span>BACK</span></span>
+              <img
+                alt="Vector3691"
+                src="public/external/vector3691-burtt.svg"
+                class="parentframe-vector14"
+              />
+              <img
+                alt="Rectangle843691"
+                src="public/external/rectangle843691-hnti-200h.png"
+                class="parentframe-rectangle841"
+              />
+            </div>
+          </div>
+          <div class="parentframe-frame5">
+            <div class="parentframe-frame14">
+              <div class="parentframe-section-header2">
+                <span class="parentframe-text088"><span>CONTACT</span></span>
+              </div>
+              <span class="parentframe-text090">
+                <span>
+                  Thank you for taking the time to explore my portfolio. If you
+                  have any questions, inquiries, or would simply like to get in
+                  touch, I'd be more than happy to hear from you.
+                </span>
+              </span>
+              <img
+                alt="Rectangle501461"
+                src="public/external/rectangle501461-80yv-200w.png"
+                class="parentframe-rectangle50"
+              />
+              <img
+                alt="Rectangle511462"
+                src="public/external/rectangle511462-eamj-300h.png"
+                class="parentframe-rectangle51"
+              />
+              <img
+                alt="Rectangle521463"
+                src="public/external/rectangle521463-k0va-200w.png"
+                class="parentframe-rectangle52"
+              />
+              <img
+                alt="Rectangle531464"
+                src="public/external/rectangle531464-h1i-300h.png"
+                class="parentframe-rectangle53"
+              />
+              <img
+                alt="Rectangle541465"
+                src="public/external/rectangle541465-o0r6-200w.png"
+                class="parentframe-rectangle54"
+              />
+              <img
+                alt="Rectangle551466"
+                src="public/external/rectangle551466-otx-300h.png"
+                class="parentframe-rectangle55"
+              />
+              <img
+                alt="Rectangle561467"
+                src="public/external/rectangle561467-7fu-200w.png"
+                class="parentframe-rectangle56"
+              />
+              <img
+                alt="Rectangle571468"
+                src="public/external/rectangle571468-q3oa-300h.png"
+                class="parentframe-rectangle57"
+              />
+              <span class="parentframe-text092">
+                <span>ENTER YOUR NAME*</span>
+              </span>
+              <span class="parentframe-text094">
+                <span>ENTER YOUR EMAIL*</span>
+              </span>
+              <span class="parentframe-text096"><span>PHONE NUMBER</span></span>
+              <span class="parentframe-text098">
+                <span>YOUR MESSAGE*</span>
+              </span>
+              <span class="parentframe-text100"><span>SUBMIT</span></span>
+              <img
+                alt="Line171474"
+                src="public/external/line171474-c23b.svg"
+                class="parentframe-line171"
+              />
+              <img
+                alt="Line181475"
+                src="public/external/line181475-f42b.svg"
+                class="parentframe-line181"
+              />
+              <span class="parentframe-text102"><span>BACK</span></span>
+              <img
+                alt="Vector3691"
+                src="public/external/vector3691-ry4.svg"
+                class="parentframe-vector15"
+              />
+            </div>
+            <div class="parentframe-footer">
+              <img
+                alt="Rectangle66590"
+                src="public/external/rectangle66590-qxgw-400w.png"
+                class="parentframe-rectangle66"
+              />
+              <span class="parentframe-text104">
+                <span class="parentframe-text105">@2023 Hirwa Ayan</span>
+                <span>All Rights Reserved.</span>
+              </span>
+              <img
+                alt="Vector5110"
+                src="public/external/vector5110-3hq9.svg"
+                class="parentframe-vector16"
+              />
+              <img
+                alt="Vector5111"
+                src="public/external/vector5111-v3ln.svg"
+                class="parentframe-vector17"
+              />
+              <img
+                alt="Vector5112"
+                src="public/external/vector5112-a7kk.svg"
+                class="parentframe-vector18"
+              />
+              <span class="parentframe-text107"><span>BACK TO TOP</span></span>
+              <img
+                alt="icbaselinedoublearrow5114"
+                src="public/external/icbaselinedoublearrow5114-oxg.svg"
+                class="parentframe-icbaselinedoublearrow"
+              />
+              <img
+                alt="Vector5117"
+                src="public/external/vector5117-g13g.svg"
+                class="parentframe-vector19"
+              />
+            </div>
+          </div>
+          <div class="parentframe-backspace"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
